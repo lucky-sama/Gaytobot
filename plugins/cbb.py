@@ -1,6 +1,3 @@
-#(©)Codexbotz
-#Recoded By @Its_Tartaglia_Childe
-
 from pyrogram import __version__
 from bot import Bot
 from config import OWNER_ID
@@ -11,7 +8,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n× ɢᴏᴅ : <a href='https://t.me/iwilltouchyoulilnigga'>🫨 🫨</a>\n× ᴅᴇᴍɪ-ɢᴏᴅ : <a href='tg://user?id=6193451722'>chotta.||..Shivam</a>\n× ʜᴇɴᴛᴀɪ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+befOBiGrQ7Y2ZGE9'>ʜᴇᴀɴɪᴍᴇ ʜᴜʙ</a>\n× ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ 1 : <a href='https://t.me/animation_hub_b'>ᴀɴɪᴍᴀᴛɪᴏɴ ʜᴜʙ</a>\n× ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ 2 : <a href='https://t.me/Anime_Yugen'>ᴀɴɪᴍᴇ ʏᴜɢᴇɴ</a>\n× ᴍᴀɴɢᴀ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Manga_Yugen'>ᴍᴀɴɢᴀ ʏᴜɢᴇɴ</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
+            text = f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n× ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/ElitesCrewBot'>Eʟɪᴛᴇs ᴀᴅᴍɪɴs</a>\n× ʜᴇɴᴛᴀɪ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+befOBiGrQ7Y2ZGE9'>ʜᴇᴀɴɪᴍᴇ ʜᴜʙ</a>\n× ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/anime_elites'>ᴀɴɪᴍᴇ ᴇʟɪᴛᴇs</a>\n× ʙᴏᴛs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/elites_bots'>ᴇʟɪᴛᴇs ʙᴏᴛᴢ</a>\n× sᴇʀɪᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+78IZqN1ZqP0zMThl'>sᴇʀɪᴇs ᴇʟɪᴛᴇs</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
