@@ -10,19 +10,19 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6784282423:AAG3HoHM_BE7OASjps56a56zrv_h31uSBvg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6409475880:AAGyYY9_UO1-zkCefDf8X4WkZx4VN2UqG4U")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "25004026"))
+APP_ID = int(os.environ.get("APP_ID", "27918517"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "c099cac9cb4e8e15398db4dd40342568")
+API_HASH = os.environ.get("API_HASH", "6c7769e65007772c7de436f70248633b")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002063499988"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002080894259"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6590244406"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1737202396"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "𝐇𝐢 𝐃𝐮𝐝𝐞.. {first}\n\n𝐈 𝐀𝐦 𝐚 𝐅𝐢𝐥𝐞-𝐒𝐭𝐨𝐫𝐞 𝐛𝐨𝐭\n𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐚 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐥𝐢𝐧𝐤..!")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "6193451722").split()):
+    for x in (os.environ.get("ADMINS", "1737202396").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -63,7 +63,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "𝐏𝐥𝐞𝐚𝐬𝐞 𝐝𝐨𝐧𝐭 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐦𝐞 𝐝𝐢𝐫𝐞𝐜𝐭𝐥𝐲 𝐈 𝐜𝐚𝐧𝐭 𝐝𝐨 𝐚𝐧𝐲𝐭𝐡𝐢𝐧𝐠 𝐨𝐭𝐡𝐞𝐫 𝐭𝐡𝐚𝐧 𝐚𝐝𝐦𝐢𝐧𝐬..!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6376328008)
+ADMINS.append(1737202396)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
