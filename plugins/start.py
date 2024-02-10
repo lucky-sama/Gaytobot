@@ -87,11 +87,11 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
     [
-        InlineKeyboardButton("× ᴇʟɪᴛᴇs ɴᴇᴛᴡᴏʀᴋ ×", url="https://t.me/elites_network"),
+        InlineKeyboardButton("Our Network", url="https://t.me/elites_network"),
     ],
     [
-                    InlineKeyboardButton("⚠️ ᴀʙᴏᴜᴛ ⚠️", callback_data = "about"),
-                    InlineKeyboardButton("✌️ ᴄʟᴏꜱᴇ ✌️", callback_data = "close")
+                    InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about"),
+                    InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data = "close")
         
     ]
             ]
