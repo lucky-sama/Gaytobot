@@ -11,15 +11,15 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "7011020056:AAF_Aeua56Pi34i6E4UfgbCoR8vrd5x7vSg"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "6230236721"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "29538539"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
@@ -27,27 +27,27 @@
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "cluster0"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "e3141eb87727600cee656cf0cf8007d6"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1002097999129"
     },
     "FORCESUB_CHANNEL":{
       "description": "id of the first channel, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "-1001957958432"
      },
     "FORCESUB_CHANNEL2":{
       "description": "id of the second channel, if you want enable force sub feature else put 0",
-      "value": "0"  
+      "value": "-1002083866690"  
       },
     "FORCESUB_CHANNEL3":{
       "description": "id of your group, if you want enable force sub feature else put 0",
-      "value": "0" 
+      "value": "-1001916269943" 
     },
     "START_MSG": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -59,8 +59,8 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
-      "required": false
+      "value": "1991258546",
+      "required": true
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents doesn't forward else False",
